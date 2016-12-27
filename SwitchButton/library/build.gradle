@@ -2,11 +2,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-version = "1.4.4"
+version = "1.4.5"
 
 def siteUrl = 'https://github.com/kyleduo/SwitchButton'
 def gitUrl = 'https://github.com/kyleduo/SwitchButton.git'
-group = "com.kyleduo.switchbutton"
+group = "com.github.okitcom"
 
 android {
     compileSdkVersion 23
@@ -15,9 +15,9 @@ android {
 
     defaultConfig {
         minSdkVersion 11
-        targetSdkVersion 23
-        versionCode 21
-        versionName "1.4.4"
+        targetSdkVersion 19
+        versionCode 22
+        versionName "1.4.5"
     }
     buildTypes {
         release {
